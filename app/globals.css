@@ -16,6 +16,12 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .logo{
+    @apply invert;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
